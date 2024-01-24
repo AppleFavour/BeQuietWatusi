@@ -25,7 +25,9 @@
 %end
 
 %hook UILabel
--(void)setText:(NSString *)arg1 {
-    if ([arg1 isEqualToString:@"Help & Support"]) { arg1 = @"© AppleFavour"; }
-    %orig; /* Original Implementation */}
+NSArray *words = @[@"Help & Support", @"Yardım", @"المساعدة والدعم", @"Servicio de Asistencia", @"Hilfe & Support", @"Ajuda e Suporte"];
+- (void)setText:(NSString *)arg1 {
+    if ([words containsObject:arg1]) { arg1 = @"© 2023 AppleFavour"; }
+    %orig; /* Original Implementation */
+}
 %end

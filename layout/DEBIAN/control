@@ -1,6 +1,6 @@
 Package: org.favour.nowatusialert
 Name: BeQuietWatusi
-Version: 1.0.0-1
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Unveiling an alert with a touch of magic.
 Maintainer: AppleFavour
