@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 
 // Created by Turann_ on 25/12/2023
-// Copyright © 2023 AppleFavour. All rights reserved.
+// Copyright © 2023 AppleFavour.
 // Thanks to DPixelStore this project based off DPixelStore.dylib reversed code
 
 %hook UIViewController
