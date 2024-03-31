@@ -17,7 +17,7 @@
             return;
         }
     }
-    %orig(viewControllerToPresent, animated, completion); /* My implementation with override. */
+    %orig(viewControllerToPresent, animated, completion); /* Implementation with override. */
 }
 
 %end
