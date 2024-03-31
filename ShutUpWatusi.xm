@@ -1,8 +1,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-// CC BY-ND 3.0 
-// Free to distribution WITHOUT ANY MODIFICATON
 // Created by Turann_ on 25/12/2023
 // Copyright © 2023 AppleFavour. All rights reserved.
 // Thanks to DPixelStore this project based off DPixelStore.dylib reversed code
