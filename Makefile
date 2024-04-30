@@ -5,7 +5,7 @@ export SYSROOT = $(THEOS)/sdks/iPhoneOS14.1.sdk
 TWEAK_NAME = BeQuietWatusi
 $(TWEAK_NAME)_FILES = BeQuietWatusi.xm
 $(TWEAK_NAME)_CFLAGS += -fobjc-arc
-INSTALL_TARGET_PROCESSES = net.whatsapp.WhatsApp
+INSTALL_TARGET_PROCESSES = net.whatsapp.WhatsApp net.whatsapp.WhatsAppSMB
 
 include $(THEOS)/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk
