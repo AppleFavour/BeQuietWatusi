@@ -39,12 +39,13 @@ jobs:
       - name: Build Tweak
         run: |
           source .env
-          make clean package      
+          make package
+          make package THEOS_PACKAGE_SCHEME=rootless
           cp packages/*.deb ${{ github.workspace }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: bqw.deb # Name of .deb file shown on first page
+          name: BeQuietWatusi.deb # Name of .deb file shown on first page
           path: |
             packages/*.deb
