@@ -1,6 +1,6 @@
 export ARCHS = arm64 arm64e
 export TARGET = iphone:clang:14.0
-export SYSROOT = $(THEOS)/sdks/iPhoneOS14.1.sdk
+export SYSROOT = $(THEOS)/sdks/iPhoneOS16.5.sdk
 
 TWEAK_NAME = BeQuietWatusi
 $(TWEAK_NAME)_FILES = BeQuietWatusi.xm
